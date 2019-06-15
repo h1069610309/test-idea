@@ -11,5 +11,9 @@ public class test {
         System.out.println("this id myobject!");
         System.out.println("this id myobject!");
         System.out.println("this id myobject!");
+        System.out.println("this id myobject!");
+    }
+    public void test(){
+        System.out.println("aaa");
     }
 }
