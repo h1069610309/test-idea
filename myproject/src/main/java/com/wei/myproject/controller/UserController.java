@@ -32,7 +32,7 @@ public class UserController {
         map.put("code","0");
         map.put("msg","i am msg");
         map.put("count",userDao.count());
-       // map.put("data",userDao.findAll());
+        // map.put("data",userDao.findAll());
         String limit = httpServletRequest.getParameter("limit");
         String page = httpServletRequest.getParameter("page");
         System.out.println("接收到的"+limit+"page"+page);
